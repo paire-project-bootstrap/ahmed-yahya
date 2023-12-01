@@ -176,9 +176,48 @@ function searchProduct() {
   window.location.href = "search.html"
 }
 
-$("#btn").on("click", searchProduct)
+ $("#btn").on("click", searchProduct)
 
 
+// function displaySearchResults(results) {
+//   $(".prductSearched").empty()
+
+//  each(results, function (e) {
+//    $(".prductSearched").append(<li>
+//      <img class="hi" src="${e.image}" alt="image">
+//      <h1 class="name">${e.name}</h1>
+//      <h2 class="price">${e.price}$</h2>
+//      <h2 class="category">${e.category}</h2>
+//      <button class="total">Add</button>
+//      </li>
+//    )
+//  })
+// }
+
+// function searchProduct() {
+//  var searchTerm= $("#input").val().toLowerCase()
+//  var searchResults=[]
+
+//  each (dummyData, function (e) {
+//           if (e.name.toLowerCase().includes(searchTerm)) {
+//         searchResults.push(e)
+//    }
+//  })
+
+//          if (searchResults.length > 0) {
+//    displaySearchResults(searchResults)
+//  } else
+
+//  {
+//         alert("what are you looking for ?")
+//  }
+// }
+
+//     $(document).ready(function () {
 
 
+//  $("#btn").on("click", searchProduct )
 
+
+//           displayAllProduct()
+// });

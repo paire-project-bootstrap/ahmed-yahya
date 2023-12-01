@@ -72,7 +72,7 @@ $("#loginBtn").on("click", function () {
 
 
 if (login(username,password,role)) {
-        
+    
     window.location.href="../user-interface/user.html";
     }
            

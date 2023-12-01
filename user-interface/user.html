@@ -9,17 +9,16 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NiceDeal</title>
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 </head>
 <body>
     <div class="card">
-        <div  class="serarch1">
+        <div  class="search">
             <input id="input" type="text" placeholder="Enter Product Name  " >
-            <button id="btn" ><img   src="https://logowik.com/content/uploads/images/search7780.jpg"></button>
-            <a href="../admin-interface/admin.html" ><button>Let's Go </button></a>
+            <button id="btn" onclick=searchProduct() ><img   src="https://logowik.com/content/uploads/images/search7780.jpg"></button>
+            <a href="../admin-interface/admin.html" ><button id="hi1" >Let's Go </button></a>
         </div>
 
-
+<div class="productSearched"></div>
 
         <div class="Product">   
        
@@ -31,7 +30,7 @@
                 </div>
 
 
-
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="user.js"></script> 
 </body>
 </html>
